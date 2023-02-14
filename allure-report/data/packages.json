@@ -1,0 +1,94 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.test_futurama_questions",
+    "children" : [ {
+      "name" : "Get questions",
+      "uid" : "b9e208eb6032cc39",
+      "parentUid" : "cc5c058d5e4a18f9070c7d03dbfc5120",
+      "status" : "broken",
+      "time" : {
+        "start" : 1676369571865,
+        "stop" : 1676369573029,
+        "duration" : 1164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create question",
+      "uid" : "69fdf3d64192707",
+      "parentUid" : "cc5c058d5e4a18f9070c7d03dbfc5120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676369573092,
+        "stop" : 1676369573875,
+        "duration" : 783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get question",
+      "uid" : "c8fcf393da01cd42",
+      "parentUid" : "cc5c058d5e4a18f9070c7d03dbfc5120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676369575005,
+        "stop" : 1676369575223,
+        "duration" : 218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Update question",
+      "uid" : "b72abb65fa7d8bf4",
+      "parentUid" : "cc5c058d5e4a18f9070c7d03dbfc5120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676369575899,
+        "stop" : 1676369577100,
+        "duration" : 1201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Delete question",
+      "uid" : "31a675670912b3b5",
+      "parentUid" : "cc5c058d5e4a18f9070c7d03dbfc5120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676369578348,
+        "stop" : 1676369578776,
+        "duration" : 428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.test_futurama_questions"
+  } ],
+  "name" : "packages"
+}

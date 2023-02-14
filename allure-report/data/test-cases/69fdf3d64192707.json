@@ -1,0 +1,225 @@
+{
+  "uid" : "69fdf3d64192707",
+  "name" : "Create question",
+  "fullName" : "tests.test_futurama_questions.TestQuestions#test_create_question",
+  "historyId" : "52b40a7afa47d7d6aef873594efdacd7",
+  "time" : {
+    "start" : 1676369573092,
+    "stop" : 1676369573875,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Creating question",
+      "time" : {
+        "start" : 1676369573092,
+        "stop" : 1676369573869,
+        "duration" : 777
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Making POST request to \"'/questions'\"",
+        "time" : {
+          "start" : 1676369573092,
+          "stop" : 1676369573869,
+          "duration" : 777
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "'/questions'"
+        }, {
+          "name" : "json",
+          "value" : "{'id': 356, 'question': 'h6VUPoCnvrrdk4P', 'possibleAnswers': ['vk4dOwUYwxR5', 'zLG2dMlSI', 'LUvTsnYEaYAHvzI', 'iSRqv6Q54zGi', 'VbLH0VUMPgM2kcq', 'iljI3aoiKwJyw', 'z9RgVzGM4LYPnx', 'By5nyodJsP0', 'iPA6zhx1rYRo', 'GSNw4ZOsBNO'], 'correctAnswer': 'JRGs0c9FnN'}"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "payload",
+        "value" : "DefaultQuestion(id=356, question='h6VUPoCnvrrdk4P', possible_answers=['vk4dOwUYwxR5', 'zLG2dMlSI', 'LUvTsnYEaYAHvzI', 'iSRqv6Q54zGi', 'VbLH0VUMPgM2kcq', 'iljI3aoiKwJyw', 'z9RgVzGM4LYPnx', 'By5nyodJsP0', 'iPA6zhx1rYRo', 'GSNw4ZOsBNO'], correct_answer='JRGs0c9FnN')"
+      }, {
+        "name" : "auth",
+        "value" : "Authentication(auth_token=None, user=AuthUser(email='some@gmail.com', password='some'))"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that \"Response status code\" equals to \"201\"",
+      "time" : {
+        "start" : 1676369573869,
+        "stop" : 1676369573870,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Checking that \"Question \"id\"\" equals to \"356\"",
+      "time" : {
+        "start" : 1676369573870,
+        "stop" : 1676369573870,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Checking that \"Question \"question\"\" equals to \"h6VUPoCnvrrdk4P\"",
+      "time" : {
+        "start" : 1676369573870,
+        "stop" : 1676369573870,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Checking that \"Question \"possibleAnswers\"\" equals to \"['vk4dOwUYwxR5', 'zLG2dMlSI', 'LUvTsnYEaYAHvzI', 'iSRqv6Q54zGi', 'VbLH0VUMPgM2kcq', 'iljI3aoiKwJyw', 'z9RgVzGM4LYPnx', 'By5nyodJsP0', 'iPA6zhx1rYRo', 'GSNw4ZOsBNO']\"",
+      "time" : {
+        "start" : 1676369573870,
+        "stop" : 1676369573870,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Checking that \"Question \"correctAnswer\"\" equals to \"JRGs0c9FnN\"",
+      "time" : {
+        "start" : 1676369573870,
+        "stop" : 1676369573870,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Validating schema",
+      "time" : {
+        "start" : 1676369573870,
+        "stop" : 1676369573875,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'id': 356, 'question': 'h6VUPoCnvrrdk4P', 'possibleAnswers': ['vk4dOwUYwxR5', 'zLG2dMlSI', 'LUvTsnYEaYAHvzI', 'iSRqv6Q54zGi', 'VbLH0VUMPgM2kcq', 'iljI3aoiKwJyw', 'z9RgVzGM4LYPnx', 'By5nyodJsP0', 'iPA6zhx1rYRo', 'GSNw4ZOsBNO'], 'correctAnswer': 'JRGs0c9FnN'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'title': 'DefaultQuestion', 'type': 'object', 'properties': {'id': {'title': 'Id', 'type': 'integer'}, 'question': {'title': 'Question', 'type': 'string'}, 'possibleAnswers': {'title': 'Possibleanswers', 'type': 'array', 'items': {'type': 'string'}}, 'correctAnswer': {'title': 'Correctanswer', 'type': 'string'}}}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Questions API"
+  }, {
+    "name" : "feature",
+    "value" : "Questions"
+  }, {
+    "name" : "tag",
+    "value" : "questions"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_futurama_questions"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestQuestions"
+  }, {
+    "name" : "host",
+    "value" : "hvova"
+  }, {
+    "name" : "thread",
+    "value" : "1205433-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_futurama_questions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7a6c39eb32016ad4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676326076603,
+        "stop" : 1676326077236,
+        "duration" : 633
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "questions" ]
+  },
+  "source" : "69fdf3d64192707.json",
+  "parameterValues" : [ ]
+}

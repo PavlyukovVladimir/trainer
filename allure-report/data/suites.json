@@ -1,0 +1,102 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_futurama_questions",
+      "children" : [ {
+        "name" : "TestQuestions",
+        "children" : [ {
+          "name" : "Get questions",
+          "uid" : "b9e208eb6032cc39",
+          "parentUid" : "d652af757e84baaa4d2f3faab5ba6d2f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1676369571865,
+            "stop" : 1676369573029,
+            "duration" : 1164
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Create question",
+          "uid" : "69fdf3d64192707",
+          "parentUid" : "d652af757e84baaa4d2f3faab5ba6d2f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676369573092,
+            "stop" : 1676369573875,
+            "duration" : 783
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Get question",
+          "uid" : "c8fcf393da01cd42",
+          "parentUid" : "d652af757e84baaa4d2f3faab5ba6d2f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676369575005,
+            "stop" : 1676369575223,
+            "duration" : 218
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Update question",
+          "uid" : "b72abb65fa7d8bf4",
+          "parentUid" : "d652af757e84baaa4d2f3faab5ba6d2f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676369575899,
+            "stop" : 1676369577100,
+            "duration" : 1201
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Delete question",
+          "uid" : "31a675670912b3b5",
+          "parentUid" : "d652af757e84baaa4d2f3faab5ba6d2f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1676369578348,
+            "stop" : 1676369578776,
+            "duration" : 428
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d652af757e84baaa4d2f3faab5ba6d2f"
+      } ],
+      "uid" : "8a5db4ba4e13d14db479fe12d460315b"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

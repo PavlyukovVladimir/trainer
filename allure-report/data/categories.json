@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "jsonschema.exceptions.ValidationError: 12 is not of type 'string'\n\nFailed validating 'type' in schema['items']['properties']['correctAnswer']:\n    {'title': 'Correctanswer', 'type': 'string'}\n\nOn instance[6]['correctAnswer']:\n    12",
+      "children" : [ {
+        "name" : "Get questions",
+        "uid" : "b9e208eb6032cc39",
+        "parentUid" : "5c7205d4bb6fa5374a4ea78286d39977",
+        "status" : "broken",
+        "time" : {
+          "start" : 1676369571865,
+          "stop" : 1676369573029,
+          "duration" : 1164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c7205d4bb6fa5374a4ea78286d39977"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Feb 14 13:12:58 MSK 2023","Tue Feb 14 13:12:58 MSK 2023","428","tests","test_futurama_questions","TestQuestions","","","Delete question",""
+"passed","Tue Feb 14 13:12:55 MSK 2023","Tue Feb 14 13:12:57 MSK 2023","1201","tests","test_futurama_questions","TestQuestions","","","Update question",""
+"passed","Tue Feb 14 13:12:55 MSK 2023","Tue Feb 14 13:12:55 MSK 2023","218","tests","test_futurama_questions","TestQuestions","","","Get question",""
+"passed","Tue Feb 14 13:12:53 MSK 2023","Tue Feb 14 13:12:53 MSK 2023","783","tests","test_futurama_questions","TestQuestions","","","Create question",""
+"broken","Tue Feb 14 13:12:51 MSK 2023","Tue Feb 14 13:12:53 MSK 2023","1164","tests","test_futurama_questions","TestQuestions","","","Get questions",""

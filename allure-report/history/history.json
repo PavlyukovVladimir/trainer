@@ -1,0 +1,98 @@
+{
+  "f4c5c08e36718f2b17a99131abd1ba92" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b72abb65fa7d8bf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676369575899,
+        "stop" : 1676369577100,
+        "duration" : 1201
+      }
+    } ]
+  },
+  "af6ee829867beaceece74dfb0f38024c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9e208eb6032cc39",
+      "status" : "broken",
+      "statusDetails" : "jsonschema.exceptions.ValidationError: 12 is not of type 'string'\n\nFailed validating 'type' in schema['items']['properties']['correctAnswer']:\n    {'title': 'Correctanswer', 'type': 'string'}\n\nOn instance[6]['correctAnswer']:\n    12",
+      "time" : {
+        "start" : 1676369571865,
+        "stop" : 1676369573029,
+        "duration" : 1164
+      }
+    } ]
+  },
+  "a23f81a1084a932685f76341222fe753" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8fcf393da01cd42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676369575005,
+        "stop" : 1676369575223,
+        "duration" : 218
+      }
+    } ]
+  },
+  "52b40a7afa47d7d6aef873594efdacd7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69fdf3d64192707",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676369573092,
+        "stop" : 1676369573875,
+        "duration" : 783
+      }
+    } ]
+  },
+  "fbd3bb43d87ce6a7ed7b8bfdc667902a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31a675670912b3b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1676369578348,
+        "stop" : 1676369578776,
+        "duration" : 428
+      }
+    } ]
+  }
+}
